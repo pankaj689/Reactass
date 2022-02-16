@@ -14,7 +14,7 @@ function App() {
           <h1>Alan Ford</h1>
           <p className='hnum'>00005152</p>
         </div>
-        <button className='btn'>Print</button>
+        <button className='btn' >Print</button>
       </header>
       <div className='customer-info ' >
         <p>/Appointment On/i 9:00(24-05-2016)</p>
