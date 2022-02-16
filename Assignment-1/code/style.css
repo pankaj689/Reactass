@@ -1,1 +1,164 @@
 
+/* /* .maindiv{
+    padding: 1%;
+}
+.yamin {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+
+}
+.middiv{
+    padding: 1%;
+}
+.yelloc1{
+    height: 100%;
+    width: 45%;
+}
+.blue1{
+    height: 100%;
+    width: 30%;
+} */
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid blue;
+}
+.ylw1 {
+    background-color: yellow;
+    width: 49%;
+    height: 100%;
+}
+.ylw2{
+    background-color: yellow;
+    width: 49%;
+    height: 100%;
+    
+}
+.mid{
+    height: 30%;
+    width: 98%;
+    background-color: red;
+    margin: 1%;
+    
+}
+
+@media  screen and ( min-width: 321px) {
+    .mainyellow{
+        display: flex;
+        justify-content: space-between;
+        margin: 1%;
+        height: 33%;
+    }
+    .last{
+        height: 33%;
+        margin: 1%;
+        
+    }
+    .third{
+        /* display: none; */
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+
+    }
+    .frist{
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+    }
+    .second{
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+    }
+   
+}
+
+@media  screen and (min-width: 1024px) {
+    .mainyellow{
+        display: flex;
+        justify-content: space-between;
+        margin: 1%;
+        height: 30%;
+    }
+    .last{
+        display: flex;
+        justify-content: space-between;
+        margin: 1%;
+        height: 30%;
+    }
+    .frist{
+        width: 32%;
+        height: 100%;
+        background-color: blue;
+        margin-top: 0%;
+    }
+    .second{
+        width: 32%;
+        height: 100%;
+        background-color: blue;  
+        margin-top: 0%;
+    }
+    .third{
+        display:block;
+        width: 32%;
+        height: 100%;
+        background-color: blue; 
+        margin-top: 0%;
+        
+        
+    }
+    
+}
+
+
+@media only screen and (max-width:320px) {
+    .mainyellow{
+        
+        margin: 1%;
+        height: 33%;
+    }
+    .ylw1 {
+        background-color: yellow;
+        width: 100%;
+        margin-bottom: 1%;
+        height: 48.5%;
+        
+    }
+    .ylw2{
+        background-color: yellow;
+        width: 100%;
+        height: 48.5%;
+        
+        
+    }
+    .last{
+        height: 33%;
+        margin: 1%;
+    }
+    .third{
+        /* display: none; */
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+
+    }
+    .frist{
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+    }
+    .second{
+        height: 50%;
+        width: 100%;
+        margin-top: 1%;
+        background-color: blue;
+    }
+   
+} 
