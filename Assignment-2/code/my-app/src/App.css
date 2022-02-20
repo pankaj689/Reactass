@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+
+.imgtag{
+  margin-top: 1%;
+  
+}
+img{
+  border-radius: 50px ;
+}
+.nametag{
+  color: #61dafb;
+  font-size: 25px;
+}
+
+.loc1{
+  line-height: 10px;
+}
